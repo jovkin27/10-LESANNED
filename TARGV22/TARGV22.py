@@ -83,6 +83,19 @@
 #print(Kokku)
 
 #10
+i=0
+j=0
+for i in range(1,11):
+    A=int(input('Sisesta number 1 => '))
+    B=int(input('Sisesta number 2=> '))
+    if A==int(A) and B==int(B):
+        if A>B:
+            j={A} 
+        elif A<B:
+            j={B}
+print(j)
+
+    
 
 
 
